@@ -70,3 +70,13 @@ span{
   align-items: center;
   gap: 30vh;
 }
+
+.icon{
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-evenly;
+}
+
+
+
+
