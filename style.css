@@ -45,6 +45,7 @@ a {
 .list a:hover {
 font-weight: bold;
 opacity: 1;
+color: #21f72c;
 }
 
 .list{
@@ -55,6 +56,17 @@ font-family: "Mulish", sans-serif;
   width: 60vh;
 }
 
+.section h1 p{
+  font-size: 1.5rem;
+}
+
+span{
+  color: #21f72c;
+  font-weight: bold;
+}
+
 .section{
   display: flex;
+  align-items: center;
+  gap: 30vh;
 }
