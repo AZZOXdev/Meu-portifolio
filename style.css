@@ -89,6 +89,24 @@ span{
   color: #21f72c
 }
 
+.Incons-Skills{
+  gap: 29px;
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-evenly;
+}
+
+.Incons-Skills a {
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+}
+
+.Incons-Skills h1 {
+ font-size: 15px;
+ color: #383434;
+}
+
 
 
 
