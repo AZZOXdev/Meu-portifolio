@@ -89,6 +89,12 @@ span{
   color: #21f72c
 }
 
+.SobreMim h4{
+  margin-top:10px;
+
+}
+
+
 .Incons-Skills{
   gap: 29px;
   display: flex;
