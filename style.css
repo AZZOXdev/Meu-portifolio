@@ -13,7 +13,7 @@ body{
 }
 
 .page{
-  width: 1000px;
+  max-width: 1000px;
   margin: 0 auto;
   padding-top: 65px;
 }
@@ -89,7 +89,7 @@ span{
   transform: scale(1.05);
 }
 
-.SobreMim h1{
+h1{
   color: #21f72c
 }
 
@@ -138,7 +138,56 @@ span{
 .Sobremim-soft{
 display: flex;
 margin-top: 40px;
+}
 
+.Project{
+  margin-top: 40px;
+  display:grid;
+  gap: 3.2rem;
+  padding-bottom: 10rem;
+}
+
+.cards{
+  position: relative;
+}
+
+.cards img {
+ height:36.6rem;
+ object-fit: cover;
+ border-radius: 6px;
+ transition: all 200ms;
+ filter: blur(3px);
+ margin: 0 auto;
+ max-width: 140vh;
+}
+
+.cards img:hover{
+ transform:scale(1.1);
+ opacity: 0.7;
+ filter: blur(0px);
+}
+
+.cards h2 {
+ position: absolute;
+ bottom:5.2rem;
+ left:2.8rem;
+ font-weight:800;
+ display: flex;
+ flex-direction: column;
+ color: #00c210;
+}
+
+.cards h2 span{
+border-radius: 2.0rem;
+background-color:#ffffff ;
+font-size:13px;
+font-weight:400;
+color: #000000;
+padding: 0 1.6rem;
+height:3.8rem;
+display: inline-flex;
+align-items: center;
+width:fit-content;
 }
 
 
