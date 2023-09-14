@@ -53,7 +53,8 @@ font-family: "Mulish", sans-serif;
 }
 
 .section img{
-  width: 60vh;
+  width: 100%;
+  min-width: 15rem;
 }
 
 .section h1 p{
@@ -92,6 +93,7 @@ span{
 h1{
   color: #21f72c
 }
+
 
 #Formacao{
   margin-top: 40px;
@@ -147,6 +149,11 @@ margin-top: 40px;
   padding-bottom: 10rem;
 }
 
+.Project h1 {
+  margin: 0 auto;
+  font-size: 3rem;
+}
+
 .cards{
   position: relative;
 }
@@ -158,7 +165,7 @@ margin-top: 40px;
  transition: all 200ms;
  filter: blur(3px);
  margin: 0 auto;
- max-width: 140vh;
+ width: 100%;
 }
 
 .cards img:hover{
@@ -175,6 +182,7 @@ margin-top: 40px;
  display: flex;
  flex-direction: column;
  color: #00c210;
+ text-shadow: 0px 2px 2px #080808;
 }
 
 .cards h2 span{
