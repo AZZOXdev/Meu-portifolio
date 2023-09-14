@@ -85,15 +85,18 @@ span{
   justify-content: space-evenly;
 }
 
+.icon :hover{
+  transform: scale(1.05);
+}
+
 .SobreMim h1{
   color: #21f72c
 }
 
 .SobreMim h4{
-  margin-top:10px;
+  margin:14px 10px;
 
 }
-
 
 .Incons-Skills{
   gap: 29px;
@@ -111,6 +114,22 @@ span{
 .Incons-Skills h1 {
  font-size: 15px;
  color: #383434;
+}
+
+.profile img {
+  position: relative;
+  animation: Flutuar 2s ease-in-out infinite alternate;
+
+}
+
+@keyframes Flutuar{
+  0%{
+    top: 0;
+  }
+  100%{
+    top:30px;
+  }
+
 }
 
 
