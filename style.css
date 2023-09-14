@@ -93,9 +93,13 @@ span{
   color: #21f72c
 }
 
-.SobreMim h4{
-  margin:14px 10px;
+#Formacao{
+  margin-top: 40px;
+}
 
+.SobreMim h4{
+  font-size: 15px;
+ color: #383434;
 }
 
 .Incons-Skills{
@@ -119,7 +123,6 @@ span{
 .profile img {
   position: relative;
   animation: Flutuar 2s ease-in-out infinite alternate;
-
 }
 
 @keyframes Flutuar{
@@ -132,6 +135,11 @@ span{
 
 }
 
+.Sobremim-soft{
+display: flex;
+margin-top: 40px;
+
+}
 
 
 
