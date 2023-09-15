@@ -205,6 +205,19 @@ align-items: center;
 gap: 10px;
 }
 
+.Educacao{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.Educacao h6, h5{
+  font-size: 1rem;
+}
+
+.Blog{
+  margin-bottom: 40px;
+}
 
 
 
