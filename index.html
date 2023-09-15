@@ -281,13 +281,14 @@
             <h1>Contato</h1>
           </div>
 
-          <form action="" method="post">
+          <form action="https://api.staticforms.xyz/submit" method="post">
             <label>Nome</label>
             <input
               type="text"
               name="name"
               placeholder="Digite seu nome"
               autocomplete="off"
+              required
             />
             <label>Email</label>
             <input
@@ -295,15 +296,27 @@
               name="email"
               placeholder="Digite seu email"
               autocomplete="off"
+              required
             />
             <label>Mensagem</label>
             <textarea
               name="message"
-              cols="30"
+              cols="50"
               rows="10"
               placeholder="Digite sua mensagem"
+              required
             ></textarea>
             <button type="submit">Enviar</button>
+            <input
+              type="hidden"
+              name="accessKey"
+              value="86661fa8-7491-4d1d-ae1a-13503a8d1cf8"
+            />
+            <input
+              type="hidden"
+              name="redirectTo"
+              value="http://127.0.0.1:5500/index.html"
+            />
           </form>
         </div>
       </main>

@@ -219,6 +219,72 @@ gap: 10px;
   margin-bottom: 40px;
 }
 
+form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px 45px;
+  background:#ffffff;
+  width: 500px;
+  margin: 0 auto;
+}
 
+.Contato{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+form label{
+  color: #0dff19;
+  font-size: 17px;
+  margin-bottom: 4px;
+}
+
+form input{
+  padding: 15px;
+  outline: none;
+  border: 0;
+  margin-bottom: 20px;
+  font-size: 15px;
+  transition: all 0.5s;
+  background-color: #c2b6b6;
+}
+
+form input:focus{
+  border-radius: 16px;
+}
+
+form textarea{
+  padding: 10px;
+  outline: none;
+  border: 0;
+  font-size: 15px;
+  margin-bottom: 30px;
+  transition: all 0.5s;
+  background: #c2b6b6;
+}
+
+form textarea:focus{
+  border-radius: 16px;
+}
+
+form button{
+  padding: 15px;
+  cursor: pointer;
+  font-size:16px;
+  background: transparent;
+  border: 2px solid #c2b6b6;
+  color: #c2b6b6;
+  transition: all 1s;
+  margin-bottom: 20px;
+}
+
+form button:hover{
+  background: #c2b6b6;
+  color: #0dff19;
+  border-radius: 16px;
+}
 
 
