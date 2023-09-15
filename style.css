@@ -144,7 +144,7 @@ margin-top: 40px;
   margin-top: 40px;
   display:grid;
   gap: 3.2rem;
-  padding-bottom: 10rem;
+  padding-bottom: 5rem;
 }
 
 .Project h1 {
@@ -234,6 +234,8 @@ form{
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin-bottom: 100px;
+
 }
 
 form label{
@@ -285,6 +287,16 @@ form button:hover{
   background: #c2b6b6;
   color: #0dff19;
   border-radius: 16px;
+}
+
+footer{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  height: 100px;
+}
+.rodaPe{
+  margin-top:40px;
 }
 
 
