@@ -411,8 +411,13 @@ footer{
 .page{
   max-width: 842px;
   min-width: 500px;
-  margin: 10px 10px 10px 10px;
+  margin: 0px 10px 10px 10px;
 }
+
+.page{
+  padding-top:0px;
+}
+
 .Incons-Skills {
 gap: 1.4rem;
 margin-right: 0.5rem}
