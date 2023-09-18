@@ -6,7 +6,6 @@
 
 
 body{
-
   font-family: "Open Sans", sans-serif;
 }
 
@@ -20,12 +19,12 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 55px;
+  margin-bottom: 3.4rem;
 }
 
 .list {
   display: flex;
-  gap: 48px;
+  gap: 3rem;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -80,7 +79,7 @@ span{
 
 .icon{
   display: flex;
-  margin-top: 10px;
+  margin-top: 0.6rem;
   justify-content: space-evenly;
 }
 
@@ -94,18 +93,18 @@ h1{
 
 
 #Formacao{
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 
 .SobreMim h4{
-  font-size: 15px;
+  font-size: 0.9rem;
  color: #383434;
 }
 
 .Incons-Skills{
-  gap: 29px;
+  gap: 1.8rem;
   display: flex;
-  margin-top: 20px;
+  margin-top: 1.25rem;
   justify-content: space-evenly;
 }
 
@@ -306,4 +305,48 @@ footer{
   color: #afb1af;
 }
 
+.mobile-menu-icon{
+  display: none;
+}
 
+.mobile-menu{
+  display: none;
+}
+
+@media screen and (max-width: 730px) {
+
+  .menu{
+    padding: 1.5rem 4rem;
+  }
+
+  .list li{
+    display: none;
+  }
+
+  .mobile-menu-icon{
+    display: block;
+  }
+
+  .mobile-menu-icon button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #0dff19;
+  }
+
+  .mobile-menu ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1.0rem;
+  }
+
+  .mobile-menu li {
+    display: block;
+    padding: 1rem 2rem;
+  }
+
+  .open{
+    display: block;
+  }
+}
