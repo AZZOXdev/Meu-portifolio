@@ -329,7 +329,6 @@ footer{
 
   .menu{
     padding: 1.5rem 4rem;
-    background-color: #000000;
   }
 
   .list li{
@@ -345,8 +344,6 @@ footer{
     border: none;
     cursor: pointer;
     color: #0dff19;
-    background-color: #000000
-
   }
 
   .mobile-menu ul{
@@ -354,7 +351,6 @@ footer{
     flex-direction: column;
     text-align: center;
     padding-bottom: 1.0rem;
-    background-color: #000000;
   }
 
   .mobile-menu a {
