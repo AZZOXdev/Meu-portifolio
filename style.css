@@ -409,13 +409,17 @@ footer{
 
 @media (max-width: 1000px){
 .page{
+  padding-top:0px;
   max-width: 842px;
   min-width: 500px;
-  margin: 0px 10px 10px 10px;
 }
 
-.page{
-  padding-top:0px;
+form{
+  align-items: normal;
+}
+
+.mobile{
+  padding: 10px;
 }
 
 .Incons-Skills {
