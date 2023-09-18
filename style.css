@@ -12,7 +12,7 @@ body{
 .page{
   max-width: 1000px;
   margin: 0 auto;
-  padding-top: 65px;
+  padding-top: 2rem;
 }
 
 nav {
@@ -20,6 +20,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 3.4rem;
+  margin-right: 1rem;
 }
 
 .list {
@@ -314,9 +315,14 @@ footer{
 }
 
 @media screen and (max-width: 730px) {
+  nav{
+    margin-bottom: 0rem;
+    margin-right: 0rem;
+  }
 
   .menu{
     padding: 1.5rem 4rem;
+    background-color: #000000;
   }
 
   .list li{
@@ -332,6 +338,8 @@ footer{
     border: none;
     cursor: pointer;
     color: #0dff19;
+    background-color: #000000
+
   }
 
   .mobile-menu ul{
@@ -339,14 +347,55 @@ footer{
     flex-direction: column;
     text-align: center;
     padding-bottom: 1.0rem;
+    background-color: #000000;
+  }
+
+  .mobile-menu a {
+    color: #8be790;
   }
 
   .mobile-menu li {
     display: block;
-    padding: 1rem 2rem;
+    padding: 0.1rem 1rem;
+    color: #50e657;
   }
 
   .open{
     display: block;
   }
+}
+
+@media (max-width: 726px){
+.section{
+  display: block;
+}
+.profile img{
+  width: 50%;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.name h1{
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.name p {
+  margin: 0 auto;
+  max-width: 250px;
+  text-align: center;
+}
+
+.cards h2{
+  bottom: 7.2rem;
+}
+
+.icon{
+  margin-top: 3rem;
+}
+
+.profile{
+  margin: 0 auto;
+  max-width: 272px;
+}
 }
