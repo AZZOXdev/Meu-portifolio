@@ -373,14 +373,13 @@ footer{
   display: block;
 }
 .profile img{
-  width: 50%;
   margin-bottom: 3rem;
   margin-top: 3rem;
 }
 
 .name h1{
   margin: 0 auto;
-  max-width: 400px;
+  max-width: 367px;
 }
 
 .name p {
