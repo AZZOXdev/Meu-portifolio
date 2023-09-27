@@ -10,10 +10,11 @@ html{
 
 body{
   font-family: "Open Sans", sans-serif;
+  background-color: #eee9e9;
 }
 
 .page{
-  max-width: 1300px;
+  max-width: 900px;
   margin: 0 auto;
   padding-top: 2rem;
 }
@@ -233,7 +234,7 @@ form{
   justify-content: center;
   flex-direction: column;
   padding: 10px 45px;
-  background:#ffffff;
+  background:#eee9e9;
   width: 500px;
   margin: 0 auto;
 }
@@ -284,9 +285,9 @@ form button{
   padding: 15px;
   cursor: pointer;
   font-size:16px;
-  background: transparent;
-  border: 2px solid #c2b6b6;
-  color: #c2b6b6;
+  background: rgb(153, 152, 152);
+  border: 2px solid #fffcfc;
+  color: #2b722f;
   transition: all 1s;
   margin-bottom: 20px;
 }
