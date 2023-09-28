@@ -285,9 +285,9 @@ form button{
   padding: 15px;
   cursor: pointer;
   font-size:16px;
-  background: rgb(153, 152, 152);
+  background: rgb(209, 209, 209);
   border: 2px solid #fffcfc;
-  color: #2b722f;
+  color: #000000;
   transition: all 1s;
   margin-bottom: 20px;
 }
